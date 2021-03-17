@@ -36,6 +36,10 @@ article {
   margin-left: 4%;
 }
 
+.course-main {
+  width: 80%;
+}
+
 section {
   padding-top: 12%;
   height: 90vh;
@@ -45,10 +49,23 @@ section {
   margin-left: 18%;
 }
 
-.name-text {
+h1 {
   font-family: "Lato", sans-serif;
   color: #ee4a57;
   font-weight: 900;
+}
+
+figure {
+  display: inline-block;
+  width: 80%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.course-img {
+  width: 100%;
 }
 
 .role-text {
@@ -71,5 +88,9 @@ section {
   article {
     width: 40%;
     margin-left: 18%;
+  }
+  figure {
+    display: inline-block;
+    width: 40%;
   }
 }
